@@ -220,6 +220,9 @@ footer p {
     width: 20em;
     height: 12em;
   }
+  .project-header {
+    padding: 3.4em 0 3.4em;
+  }
 }
 @media (max-width: 1300px) {
   #projects {
@@ -254,7 +257,10 @@ footer p {
   .about-img {
     width: 15em;
   }
-
+  .project-header {
+    padding: 4.35em 0 4.35em;
+    font-size: 1em;
+  }
   #navbar {
     font-size: 0.75em;
   }
@@ -274,9 +280,11 @@ footer p {
   #contact {
     font-size: 0.85em;
   }
-}
-@media (max-width: 300px) {
-  h1 {
+    .project-header {
+    padding: 4.5em 0 4.5em;
+    font-size: 0.5em;
+  }
+    h1 {
     font-size: 0.85em;
   }
   .subheading {
